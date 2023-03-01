@@ -1,0 +1,89 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.container {
+  margin-top: 15px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 70px;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+.nav-option {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.nav-option a {
+  text-decoration: none;
+}
+
+.address a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  line-height: 16px;
+}
+
+.address {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.address a:hover {
+  color: rgb(245, 155, 77);
+}
+
+.nav-option:hover {
+  color: rgb(245, 155, 77);
+}
+.nav-option a:hover {
+  color: rgb(245, 155, 77);
+}
+
+/*********card*************************************/
+
+.card {
+  display: flex;
+  background-color: rgb(23, 26, 41);
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+}
+
+.box {
+  display: flex;
+}
+.box img:hover {
+  transform: scale(1.1);
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+/*********card end*************************************/
+.aaaa {
+  right: 0;
+  -ms-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+}
